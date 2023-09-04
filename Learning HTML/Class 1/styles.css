@@ -1,0 +1,16 @@
+/* Styles for h1 element */
+h1 {
+    color: blue;
+}
+
+/* Styles for the .box class */
+.box {
+    background-color: yellow;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Styles for the .highlight class */
+.highlight {
+    background-color: cyan;
+}

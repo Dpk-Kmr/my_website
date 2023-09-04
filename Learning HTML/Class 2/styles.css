@@ -1,0 +1,38 @@
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Style the navigation links */
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+
+/* Style the navigation links' background */
+.navbar a {
+    background-color: #3498db;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* Add a shadow or border effect */
+.navbar a {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a transition effect */
+.navbar a {
+    transition: background-color 0.3s ease;
+}
+
+/* Add a hover effect for links */
+.navbar a:hover {
+    background-color: #555;
+    color: #fff;
+    transform: scale(1.05);
+}
