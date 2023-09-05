@@ -1,11 +1,17 @@
+/* selector {
+    property: value;
+} */
+
+
+
 /* Style the navigation bar */
-.navbar {
+.navbar1 {
     background-color: #333;
     padding: 10px;
 }
 
 /* Style the navigation links */
-.navbar a {
+.navbar1 a {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
@@ -14,24 +20,24 @@
 
 
 /* Style the navigation links' background */
-.navbar a {
+.navbar1 a {
     background-color: #3498db;
     border-radius: 5px;
     padding: 10px 20px;
 }
 
 /* Add a shadow or border effect */
-.navbar a {
+.navbar1 a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Add a transition effect */
-.navbar a {
+.navbar1 a {
     transition: background-color 0.3s ease;
 }
 
 /* Add a hover effect for links */
-.navbar a:hover {
+.navbar1 a:hover {
     background-color: #555;
     color: #fff;
     transform: scale(1.05);

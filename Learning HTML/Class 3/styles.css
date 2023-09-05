@@ -1,0 +1,27 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a container to hold the two sections */
+.container {
+    display: flex; /* Use flexbox to arrange the sections side by side */
+    flex-direction: row;
+    justify-content: space-between; /* Separate the sections with space */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+/* Style the left section */
+.section-left {
+    width: 48%; /* Adjust the width as needed */
+    background-color: #f0f0f0; /* Add background color or styles */
+    padding: 20px; /* Add padding for content inside */
+}
+
+/* Style the right section */
+.section-right {
+    width: 48%; /* Adjust the width as needed */
+    background-color: #e0e0e0; /* Add background color or styles */
+    padding: 20px; /* Add padding for content inside */
+}

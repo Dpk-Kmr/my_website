@@ -1,0 +1,28 @@
+.horizontal_container {
+    display: inline-block; /* Display containers as inline-block elements */
+    width: 50%; /* Set the width for each container */
+    margin: 0px; /* Add margin for spacing between containers */
+    border: 1px solid #ccc; /* Add borders for visualization */
+    padding: 0px; /* Add padding for spacing inside containers */
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+
+.main-left {
+    position: sticky;
+    top: 0;
+    width: 15%; /* Set the width for each container */
+    margin-left: 5%;
+    border: 1px solid #ccc; /* Add borders for visualization */
+    top: 0;
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+
+  .main-right {
+    width: 75%; /* Set the width for each container */
+    /* margin-right: 5%; */
+    border: 1px solid #ccc; /* Add borders for visualization */
+    position: sticky;
+    top: 0;
+    padding: 0px; /* Add padding for spacing inside containers */
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
